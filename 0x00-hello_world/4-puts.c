@@ -1,9 +1,9 @@
-/*
- *  *main.c file
- *   *for task 4
- *   */                                                                                              
+/*using the puts function
+ * task 4
+ */
+
 #include <stdio.h>
-	int main(void) {
-		puts("\"Programming is like building a multilingual puzzle");;
-		return(0);
+int main(void) {
+puts("\"Programming is like building a multilingual puzzle");
+return(0);
 }
