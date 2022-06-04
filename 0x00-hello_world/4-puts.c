@@ -1,8 +1,7 @@
 /*
- * main - Entry point
- * using the puts function
- * Description: printing to standard output with puts function
- * task 4
+ * main - using the puts function
+ * 
+ * Return: Always 0 (Success)
 */
 
 #include <stdio.h>
