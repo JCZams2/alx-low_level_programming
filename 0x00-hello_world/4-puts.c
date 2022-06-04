@@ -1,4 +1,5 @@
 /*
+ * main - Entry point
  * using the puts function
  * Description: printing to standard output with puts function
  * task 4
