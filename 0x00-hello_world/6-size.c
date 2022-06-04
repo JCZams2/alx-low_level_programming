@@ -1,14 +1,16 @@
-/*
+/**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
 */
 
 #include <stdio.h>
 int main(void)
 {
-puts("Size of char: 1 byte(s)");
-puts("size of int: 4 byte(s)");
-puts("size if long long int: 8 byte(s)");
-puts("size if float: 4 byte(s)");
+printf("Size of char: %d byte(s)\n", (int) sizeof(char));
+printf("size of int: %d byte(s)\n", (int) sizeof(int));
+printf("size of long int: %d byte(s)\n", (int) sizeof(long int));
+printf("size if long long int: %d byte(s)\n", (int) sizeof(long long int));
+printf("size if float: %d byte(s)\n", (int) sizeof(float));
 return (0);
 }
