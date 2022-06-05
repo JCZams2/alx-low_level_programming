@@ -3,7 +3,6 @@
  *
  * Return: Always 1 (Success)
 */
-#include <stdio.h>
 #include <unistd.h>
 
 int main(void)
