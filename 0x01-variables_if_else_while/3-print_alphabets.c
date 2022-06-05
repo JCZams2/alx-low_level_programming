@@ -2,7 +2,7 @@
  * main - Entry point
  *
  * Description: printing alphabets with lower then upper case
- * 
+ *
  * Return: 0 Always (success)
 */
 
