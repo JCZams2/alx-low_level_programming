@@ -1,16 +1,14 @@
+#include <stdio.h>
 /**
  * main - Entry point
  *
- * Description: prints numbers
- *
- * Return: 0 Always (Success)
+ * Return: o Always (Success)
 */
-#include <stdio.h>
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++);
+	for (i = 0; i < 10; i++)
 	{
 		putchar((i % 10 + '0'));
 	}
