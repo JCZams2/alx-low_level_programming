@@ -8,26 +8,17 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int i = 97;
 
-	while (ch <= 'z')
+	while (i < 123)
 	{
-		if (ch == 'q')
+		if (i != 101 && i != 113)
 		{
-			ch++;
-		}
-		else if (ch == 'e')
-		{
-			ch++;
-		}
-		else
-		{
-			putchar(ch);
-
-			ch++;
+			putchar(i);
 		}
 	}
 
-	putchar(ch);
+	putchar(10);
+
 	return (0);
 }
