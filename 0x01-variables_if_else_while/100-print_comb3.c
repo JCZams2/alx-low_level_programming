@@ -21,6 +21,7 @@ int main(void)
 				if ((j < '9') | (i < '8'))
 				{
 					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
