@@ -6,7 +6,7 @@
  * Return: 0 Always (Success)
 */
 
-#include <main.h>
+#include <stdio.h>
 
 int main(void)
 {
