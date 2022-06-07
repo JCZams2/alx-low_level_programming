@@ -16,7 +16,8 @@ int main(void)
 	while (str[i] != '\n')
 	{
 		char s = str[i];
-		putchar(s);	
+
+		putchar(s);
 		i++;
 	}
 	return (0);
