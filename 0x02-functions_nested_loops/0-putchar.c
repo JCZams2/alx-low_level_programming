@@ -6,7 +6,7 @@
  * Return: 0 Always (Success)
 */
 
-#include <stdio.h>
+#include <main.h>
 
 int main(void)
 {
@@ -16,11 +16,8 @@ int main(void)
 	while (str[i] != '\n')
 	{
 		char s = str[i];
-
-		putchar(s);
-		
+		putchar(s);	
 		i++;
 	}
 	return (0);
-
 }
