@@ -12,10 +12,10 @@ int main(void)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			z++;
+			z += i;
 		}
 
-			i++;
+		i++;
 	}
 
 	printf("%d\n", z);
