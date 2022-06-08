@@ -1,24 +1,29 @@
-/**
- * main - Entry point
- *
- * Description: Printing string with putchar()
- *
- * Return: 0 Always (Success)
-*/
+#include "main.h"
 
-#include <stdio.h>
+/**
+ *
+ *  * main - Entry point
+ *
+ *   * Description: prints 'Holberton \n'
+ *
+ *    * Return: Always 0 (success)
+ *
+ *     */
 
 int main(void)
+
 {
-	char str[] = "_putchar";
+
+	char str[] = "_putchar\n";
 	int i = 0;
 
-	while (str[i] != '\n')
+	while (str[i] != '\0')
 	{
-		char s = str[i];
+		char c = str[i];
 
-		putchar(s);
+		_putchar(c);
 		i++;
 	}
 	return (0);
+
 }
